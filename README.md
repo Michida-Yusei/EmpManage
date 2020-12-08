@@ -13,7 +13,7 @@
  daoパッケージのSuperDaoのConnectionの部分のユーザ名とパスワードはMySQLのアカウントに設定したものを使用する。
  
  DBの構築
- 「create_batsampleDB.bat」と「sample_tables.sql」をダウンロードしてバッチファイルを実行すると
+ 「create_sampleDB.bat」と「sample_tables.sql」をダウンロードしてバッチファイルを実行すると
  データベースが出来上がります。ユーザ名、パスワード、ＤＢ名の記入が必要です。
  ユーザ名とパスワードはMySQLで設定されているのものをＤＢ名はempにして下さい。
  
