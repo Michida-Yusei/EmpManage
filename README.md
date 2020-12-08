@@ -10,23 +10,10 @@
 
 # Usage
  Eclipseで動的Webプロジェクトを作成し、srcフォルダの中にmodel,control,exception,daoをコピーする。
- daoパッケージのSuperDaoの
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+ daoパッケージのSuperDaoのConnectionの部分のユーザ名とパスワードはMySQLのアカウントに設定したものを使用する。
  
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+ DBの構築
+ 「create_batsampleDB.bat」と「sample_tables.sql」をダウンロードしてバッチファイルを実行すると
+ データベースが出来上がります。
  
-# Note
  
-注意点などがあれば書く
- 
-# Author
- 
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
