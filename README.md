@@ -1,5 +1,5 @@
 # EmpManage
-サーブレットとJSPを使ったMVCモデルを使った社員情報管理システムです。
+サーブレットとJSPによるMVCモデルを採用した社員情報管理システムです。
 社員や部署に対するCRUD機能が主な機能となっています。
  
 # Requirement
@@ -7,6 +7,7 @@
 * java11
 * Tomcat9
 * MySQL8
+* JDBC Driver(MySQL)
 
 # Usage
  Eclipseで動的Webプロジェクトを作成し、srcフォルダの中にmodel,control,exception,daoをコピーする。
