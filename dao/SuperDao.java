@@ -21,7 +21,7 @@ public class SuperDao {
 	 * @throws SQLException
 	 */
 public Connection open() throws SQLException {
-	Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/jinji?serverTimezone=JST","root","@root1234");
+	Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/emp?serverTimezone=JST","","");
 	return conn;
 
 }
